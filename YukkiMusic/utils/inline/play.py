@@ -15,7 +15,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✤ sᴜᴩᴩᴏʀᴛ ✤", url="https://t.me/official_lucky01",
+                text="", url="https://t.me/official_lucky01",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -39,10 +39,10 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text="✤ ʟᴜᴄᴋʏ ", url="https://t.me/terayaarhoomai"
+                text="", url="https://t.me/terayaarhoomai"
             ),
             InlineKeyboardButton(
-                text=" sᴜᴩᴩᴏʀᴛ ✤", url="https://t.me/official_lucky01",
+                text="", url="https://t.me/official_lucky01",
            )
         ],
     ]
@@ -61,7 +61,7 @@ def telegram_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/official_lucky01",
+                text="", url="https://t.me/official_lucky01",
             ),
         ],
     ]
@@ -82,7 +82,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✤ sᴜᴩᴩᴏʀᴛ ✤", url="https://t.me/official_lucky01",
+                text="", url="https://t.me/official_lucky01",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -107,7 +107,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="✤ sᴜᴩᴩᴏʀᴛ ✤", url="https://t.me/official_lucky01",
+                text="", url="https://t.me/official_lucky01",
             ),
         ],
     ]
